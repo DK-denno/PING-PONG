@@ -1,11 +1,18 @@
 $(document).ready(function(){
-
   $("form").submit(function(event){
     event.preventDefault();
-    $('#display').empty();
-
+    var entered=$("#input").val();
+    var input= parseInt(entered);
+    fax(input);
+    alert(input);
+    output.forEach(function(input){
+    $('#display').append("<li>"+input+"<li>");
+});
   });
-  for (var initial=1; initial<= No; initial++ ){
+});
+  var output=[];
+  function fax(input){
+  for (initial=1; initial<=input; initial++ ){
     if(initial % 15===0) {
       output.push("pingpong");
       }
@@ -18,9 +25,5 @@ $(document).ready(function(){
       else{
       output.push(initial);
       }
-      console.log(No);
-      //return no;
-    }
-
-});
-});
+}
+}
