@@ -11,11 +11,8 @@
 #imagelink{
   margin-top: 30px;
 }
-#pong{
+#col1{
   background-image: url("../image/2.jpeg");
   background-size: cover;
   padding:255px;
-}
-#text{
-  float: left;
 }
