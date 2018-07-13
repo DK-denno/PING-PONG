@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>|PING-PONG</title>
        <link href="css/ping.css" rel="stylesheet" type="text/css">
-       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+       type="text/css">
        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
        crossorigin="anonymous"></script>
@@ -15,23 +16,30 @@
       <a href="#pong"><img src="image/3.png" id="imagelink"width="200" height="200"></a>
     </div>
     <div id="pong">
-      <div id="text">
-      <p>Ping pong will count all yor numbers from 1 with the following specifications:
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Ping pong will count all yor numbers from 1 with the following specifications:
         <ul>
           <li>Numbers divisible by 3 are replaced with "ping"</li>
           <li>Numbers divisible by 5 are replaced with "pong"</li>
             <li>Numbers divisible by 15 are replaced with "pingpong"</li>
           </ul>
         </ul>
-
+      </p>
+    </div>
+    <div class="col-md-6">
       <form id="form">
         <input type="text" id="input">
         <button type="submit" id="play">LETS DO THIS</button>
         <a href><img src=""></a>
       </form>
+        <ul id="display"></ul>
     </div>
     </div>
-    <ul id="display"></ul>
+  </div>
+</div>
+
   </body>
 
   </body>
