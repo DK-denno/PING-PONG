@@ -2,12 +2,20 @@
   background-image: url("../image/1.jpeg");
   background-size: cover;
   padding:255px;
-  background-attachment: fixed;
-  }
+
+}
 #play{
   background-color: green;
   padding: 25px;
 }
 #imagelink{
-  margin-top: 300px;
+  margin-top: 30px;
+}
+#pong{
+  background-image: url("../image/2.jpeg");
+  background-size: cover;
+  padding:255px;
+}
+#text{
+  float: left;
 }
