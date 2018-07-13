@@ -8,15 +8,17 @@ $(document).ready(function(){
 var No=parseInt($("form#input").val());
 var output=[];
 for (var initial=1; initial<= No; initial++ );{
-  if(index % 15===0) {
+  if(initial % 15===0) {
     output.push("pingpong");
     }
-    else if (index % 5===0) {
+    else if (initial % 5===0) {
     output.push("pong");
     }
-     else if (index % 3===0) {
+     else if (initial % 3===0) {
     output.push("ping");
     }
     else{
     output.push("index");
     }
+    console.log(no)
+    return no
