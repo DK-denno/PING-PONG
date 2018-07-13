@@ -4,7 +4,6 @@ $(document).ready(function(){
     var entered=$("#input").val();
     var input= parseInt(entered);
     fax(input);
-    alert(input);
     output.forEach(function(input){
     $('#display').append("<li>"+input+"<li>");
 });

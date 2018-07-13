@@ -1,0 +1,13 @@
+#ping{
+  background-image: url("../image/1.jpeg");
+  background-size: cover;
+  padding:255px;
+  background-attachment: fixed;
+  }
+#play{
+  background-color: green;
+  padding: 25px;
+}
+#imagelink{
+  margin-top: 300px;
+}
